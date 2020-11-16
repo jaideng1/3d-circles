@@ -13,6 +13,15 @@ function draw() {
   Point._Update();
 }
 
+
+function addUserPoint() {
+  Point.Init(document.getElementById("nradius").value,document.getElementById("nspheres").value);
+}
+
+function clearPoints() {
+  points = [];
+}
+
 //to move
 //push()
 //translate(x,y,z)
