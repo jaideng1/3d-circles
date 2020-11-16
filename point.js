@@ -27,7 +27,7 @@ class Point {
     push();
       translate(this.x,this.y,this.z);
       fill(this.hue,100,100);
-      box(this.size);
+      sphere(this.size);
     pop();
   }
   updateColor() {
